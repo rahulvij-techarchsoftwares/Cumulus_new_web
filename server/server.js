@@ -17,7 +17,7 @@ const designeeRoutes = require("./routes/designeeRoutes");
 const { router: emailRoutes } = require('./email/emailUtils');
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = 3000;
 
 app.use(express.json());
 
